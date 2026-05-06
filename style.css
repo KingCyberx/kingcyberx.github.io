@@ -35,7 +35,8 @@ button:hover {
 }  
   
 h1 {  
-  color:white;  
+  color:white;
+  margin-bottom:15px;
 }  
   
 input:hover {  
