@@ -1,20 +1,27 @@
 body {
-  background:black;
+  background: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
 }
 
 input {
   padding: 15px;
-  margin:5px;
+  margin: 5px;
   border-radius: 10px;
-  border:3px solid cyan;
+  border: 3px solid cyan;
   background: black;
+  color: white;
 }
 
 input:focus {
@@ -28,6 +35,7 @@ button {
   background: cyan;
   margin-top: 5px;
   color: black;
+  border: none;
 }
 
 button:hover {
@@ -35,15 +43,15 @@ button:hover {
 }
 
 h1 {
-  color:white;
-}
-
-input:hover {
-  box-shadow: 0 0 45px rgb(0 255 255);
+  color: white;
 }
 
 h1:hover {
   transform: scale(1.2);
+}
+
+input:hover {
+  box-shadow: 0 0 45px rgb(0 255 255);
 }
 
 input::placeholder {
