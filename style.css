@@ -30,7 +30,7 @@ input:focus {
 button {  
   height: 50px;  
   width: 240px;  
-  border-radius: 10px;  
+  border-radius: 20px;  
   background: cyan;  
   margin-top: 5px;  
   color: black; 
