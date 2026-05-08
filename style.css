@@ -33,7 +33,9 @@ button {
   border-radius: 20px;  
   background: cyan;  
   margin-top: 5px;  
-  color: black; 
+  color: black;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }  
   
 button:hover {  
