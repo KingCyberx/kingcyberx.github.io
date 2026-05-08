@@ -29,13 +29,11 @@ input:focus {
   
 button {  
   height: 50px;  
-  width: 240px;  
-  border-radius: 20px;  
+  width: 220px;  
+  border-radius: 10px;  
   background: cyan;  
   margin-top: 5px;  
   color: black;
-  padding: 10px 20px;
-  box-sizing: border-box;
 }  
   
 button:hover {  
